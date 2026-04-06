@@ -243,3 +243,16 @@ body[data-lang="en"] .lang-cz { display: none; }
 .preview-quote { max-width: 700px; margin: 0 auto; padding: 40px; border-left: 3px solid var(--gold-dim); background: rgba(200,169,110,0.03); border-radius: 0 12px 12px 0; }
 .preview-quote p { font-family: var(--font-heading); font-size: 1.15rem; line-height: 1.9; color: var(--text-light); margin-bottom: 20px; }
 .preview-quote p:last-child { margin-bottom: 0; }
+
+/* === Buy === */
+.buy { background: linear-gradient(135deg, var(--bg-darkest), #1a1a0a); max-width: 100%; padding: 100px 24px; text-align: center; }
+.buy-content { max-width: 600px; margin: 0 auto; }
+.buy h2 { font-family: var(--font-heading); font-size: 2.4rem; color: var(--gold); margin-bottom: 16px; }
+.buy-description { color: var(--text-light); margin-bottom: 36px; font-size: 1.1rem; }
+.buy-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 24px; }
+.buy-btn { display: inline-block; padding: 14px 32px; border-radius: 30px; text-decoration: none; font-size: 1rem; font-weight: 600; letter-spacing: 0.5px; transition: transform 0.3s, box-shadow 0.3s; }
+.buy-btn-primary { background: var(--gold); color: var(--bg-darkest); }
+.buy-btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(200,169,110,0.3); }
+.buy-alt { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 12px; }
+.buy-alt a { color: var(--gold); text-decoration: underline; }
+.buy-note { color: var(--text-muted); font-size: 0.8rem; opacity: 0.7; }
