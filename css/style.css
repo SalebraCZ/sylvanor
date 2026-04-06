@@ -211,3 +211,15 @@ body[data-lang="en"] .lang-cz { display: none; }
   .about-image { order: -1; }
   .about-image img { max-width: 250px; }
 }
+
+/* === World === */
+.world { background: var(--bg-dark); max-width: 100%; padding: 100px 24px; }
+.world h2 { font-family: var(--font-heading); font-size: 2.2rem; color: var(--gold); text-align: center; margin-bottom: 16px; }
+.world-intro { text-align: center; max-width: 700px; margin: 0 auto 48px; color: var(--text-muted); }
+.realm-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1200px; margin: 0 auto; }
+.realm-card { background: var(--bg-card); border-radius: 12px; padding: 28px; border-left: 3px solid var(--accent); transition: transform 0.3s, box-shadow 0.3s; }
+.realm-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,0.3); }
+.realm-card h3 { font-family: var(--font-heading); font-size: 1.3rem; color: var(--gold); margin-bottom: 8px; }
+.realm-card p { font-size: 0.9rem; color: var(--text-muted); }
+@media (max-width: 1024px) { .realm-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 768px) { .realm-grid { grid-template-columns: 1fr; } }
