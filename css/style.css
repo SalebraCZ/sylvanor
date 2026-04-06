@@ -256,3 +256,9 @@ body[data-lang="en"] .lang-cz { display: none; }
 .buy-alt { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 12px; }
 .buy-alt a { color: var(--gold); text-decoration: underline; }
 .buy-note { color: var(--text-muted); font-size: 0.8rem; opacity: 0.7; }
+
+/* === Author === */
+.author { background: var(--bg-darkest); text-align: center; }
+.author-content { max-width: 600px; margin: 0 auto; }
+.author h2 { font-family: var(--font-heading); font-size: 2.2rem; color: var(--gold); margin-bottom: 24px; }
+.author p { color: var(--text-light); opacity: 0.9; font-size: 1.05rem; }
