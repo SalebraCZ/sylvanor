@@ -236,3 +236,10 @@ body[data-lang="en"] .lang-cz { display: none; }
 .creature-ancestors { font-size: 0.8rem; color: var(--text-muted); opacity: 0.6; margin-bottom: 16px; }
 .creature-card > p:last-of-type { color: var(--text-light); opacity: 0.85; font-size: 0.9rem; }
 @media (max-width: 1024px) { .creature-grid { grid-template-columns: 1fr; max-width: 500px; margin: 0 auto; } }
+
+/* === Preview === */
+.preview { background: var(--bg-dark); max-width: 100%; padding: 100px 24px; }
+.preview h2 { font-family: var(--font-heading); font-size: 2.2rem; color: var(--gold); text-align: center; margin-bottom: 48px; }
+.preview-quote { max-width: 700px; margin: 0 auto; padding: 40px; border-left: 3px solid var(--gold-dim); background: rgba(200,169,110,0.03); border-radius: 0 12px 12px 0; }
+.preview-quote p { font-family: var(--font-heading); font-size: 1.15rem; line-height: 1.9; color: var(--text-light); margin-bottom: 20px; }
+.preview-quote p:last-child { margin-bottom: 0; }
