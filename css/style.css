@@ -262,3 +262,8 @@ body[data-lang="en"] .lang-cz { display: none; }
 .author-content { max-width: 600px; margin: 0 auto; }
 .author h2 { font-family: var(--font-heading); font-size: 2.2rem; color: var(--gold); margin-bottom: 24px; }
 .author p { color: var(--text-light); opacity: 0.9; font-size: 1.05rem; }
+
+/* === Footer === */
+.footer { background: var(--bg-darkest); border-top: 1px solid rgba(200,169,110,0.1); padding: 40px 24px; text-align: center; }
+.footer-logo { font-family: var(--font-heading); font-size: 1.3rem; color: var(--gold); letter-spacing: 2px; margin-bottom: 8px; }
+.footer p { color: var(--text-muted); font-size: 0.85rem; }
