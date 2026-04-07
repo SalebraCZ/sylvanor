@@ -245,6 +245,15 @@ body[data-lang="en"] .lang-cz { display: none; }
 .preview-quote p { font-family: var(--font-heading); font-size: 1.15rem; line-height: 1.9; color: var(--text-light); margin-bottom: 20px; }
 .preview-quote p:last-child { margin-bottom: 0; }
 
+/* === Reviews === */
+.reviews { background: var(--bg-darkest); }
+.reviews h2 { font-family: var(--font-heading); font-size: 2.2rem; color: var(--gold); text-align: center; margin-bottom: 48px; }
+.review-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.review-card { background: var(--bg-card); border-radius: 12px; padding: 32px; border-top: 3px solid var(--gold-dim); }
+.review-text { font-family: var(--font-heading); font-size: 1.05rem; line-height: 1.8; color: var(--text-light); margin-bottom: 16px; font-style: italic; }
+.review-author { color: var(--gold); font-size: 0.9rem; opacity: 0.8; }
+@media (max-width: 1024px) { .review-grid { grid-template-columns: 1fr; max-width: 500px; margin: 0 auto; } }
+
 /* === Buy === */
 .buy { background: linear-gradient(135deg, var(--bg-darkest), #1a1a0a); max-width: 100%; padding: 100px 24px; text-align: center; }
 .buy-content { max-width: 600px; margin: 0 auto; }
