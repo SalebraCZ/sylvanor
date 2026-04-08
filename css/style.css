@@ -231,12 +231,14 @@ body[data-lang="en"] .lang-cz { display: none; }
 .creature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
 .creature-card { background: var(--bg-card); border-radius: 16px; padding: 36px 28px; text-align: center; border: 1px solid rgba(200,169,110,0.1); transition: transform 0.3s, border-color 0.3s; }
 .creature-card:hover { transform: translateY(-4px); border-color: var(--gold-dim); }
-.creature-icon { font-size: 3rem; margin-bottom: 16px; }
+.creature-img { width: 220px; height: 220px; border-radius: 50%; object-fit: cover; border: 2px solid rgba(200,169,110,0.4); box-shadow: 0 0 30px rgba(200,169,110,0.15); margin-bottom: 16px; transition: border-radius 0.4s, width 0.4s, height 0.4s, object-fit 0.4s; }
+.creature-card:hover .creature-img { border-radius: 16px; width: 260px; height: 300px; object-fit: contain; }
 .creature-card h3 { font-family: var(--font-heading); font-size: 1.5rem; color: var(--gold); margin-bottom: 4px; }
 .creature-role { font-size: 0.95rem; color: var(--gold); opacity: 0.7; font-style: italic; margin-bottom: 8px; }
 .creature-ancestors { font-size: 0.8rem; color: var(--text-muted); opacity: 0.6; margin-bottom: 16px; }
 .creature-card > p:last-of-type { color: var(--text-light); opacity: 0.85; font-size: 0.9rem; }
 @media (max-width: 1024px) { .creature-grid { grid-template-columns: 1fr; max-width: 500px; margin: 0 auto; } }
+@media (max-width: 768px) { .creature-img { width: 160px; height: 160px; } }
 
 /* === Preview === */
 .preview { background: var(--bg-dark); max-width: 100%; padding: 100px 24px; }
