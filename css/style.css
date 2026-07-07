@@ -265,6 +265,7 @@ body {
 .buy-alt { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 12px; }
 .buy-alt a { color: var(--gold); text-decoration: underline; }
 .buy-note { color: var(--text-muted); font-size: 0.8rem; opacity: 0.7; }
+.buy-blurb { color: var(--text-muted); font-size: 0.95rem; margin-top: 32px; opacity: 0.85; }
 
 /* === Author === */
 .author { background: var(--bg-darkest); text-align: center; }
