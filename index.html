@@ -6,9 +6,12 @@
   <title>Sylvanor - Les, který ukazuje cesty těm, kteří umí naslouchat</title>
   <meta name="description" content="Sylvanor - kouzelný les plný tajemných bytostí. Dětská fantasy kniha ke stažení v PDF.">
   <link rel="canonical" href="https://sylvanor.cz/">
+  <link rel="alternate" hreflang="cs" href="https://sylvanor.cz/">
+  <link rel="alternate" hreflang="en" href="https://sylvanor.cz/en/">
+  <link rel="alternate" hreflang="x-default" href="https://sylvanor.cz/en/">
   <meta name="theme-color" content="#050f0a">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://sylvanor.cz/">
   <meta property="og:title" content="Sylvanor - Les, který ukazuje cesty těm, kteří umí naslouchat">
@@ -19,7 +22,7 @@
   <meta property="og:locale" content="cs_CZ">
   <meta property="og:locale:alternate" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="preload" as="image" href="images/hero-forest.webp">
+  <link rel="preload" as="image" href="/images/hero-forest.webp">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -52,9 +55,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
-<body data-lang="cz">
+<body>
 
   <nav class="navbar" id="navbar">
     <div class="nav-container">
@@ -63,18 +66,15 @@
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="nav-links">
-        <li><a href="#about"><span class="lang-cz">O knize</span><span class="lang-en">About</span></a></li>
-        <li><a href="#world"><span class="lang-cz">Svět</span><span class="lang-en">World</span></a></li>
-        <li><a href="#creatures"><span class="lang-cz">Bytosti</span><span class="lang-en">Creatures</span></a></li>
-        <li><a href="#preview"><span class="lang-cz">Ukázka</span><span class="lang-en">Preview</span></a></li>
-        <li><a href="#reviews"><span class="lang-cz">Recenze</span><span class="lang-en">Reviews</span></a></li>
-        <li><a href="#buy"><span class="lang-cz">Koupit</span><span class="lang-en">Buy</span></a></li>
-        <li><a href="#author"><span class="lang-cz">O autorce</span><span class="lang-en">Author</span></a></li>
+        <li><a href="#about">O knize</a></li>
+        <li><a href="#world">Svět</a></li>
+        <li><a href="#creatures">Bytosti</a></li>
+        <li><a href="#preview">Ukázka</a></li>
+        <li><a href="#reviews">Recenze</a></li>
+        <li><a href="#buy">Koupit</a></li>
+        <li><a href="#author">O autorce</a></li>
       </ul>
-      <button class="lang-toggle" id="lang-toggle">
-        <span class="lang-cz">EN</span>
-        <span class="lang-en">CZ</span>
-      </button>
+      <a href="/en/" class="lang-toggle" hreflang="en" lang="en">EN</a>
     </div>
   </nav>
 
@@ -82,14 +82,8 @@
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <h1 class="hero-title">Sylvanor</h1>
-      <p class="hero-subtitle">
-        <span class="lang-cz">„Les, který ukazuje cesty těm, kteří umí naslouchat"</span>
-        <span class="lang-en">"The forest that reveals its paths to those who know how to listen"</span>
-      </p>
-      <a href="#buy" class="hero-cta">
-        <span class="lang-cz">Koupit PDF →</span>
-        <span class="lang-en">Buy PDF →</span>
-      </a>
+      <p class="hero-subtitle">„Les, který ukazuje cesty těm, kteří umí naslouchat"</p>
+      <a href="#buy" class="hero-cta">Koupit PDF →</a>
     </div>
     <div class="hero-scroll">▼</div>
   </section>
@@ -97,144 +91,101 @@
   <section id="about" class="section about">
     <div class="about-grid fade-in">
       <div class="about-text">
-        <h2>
-          <span class="lang-cz">O knize</span>
-          <span class="lang-en">About the Book</span>
-        </h2>
-        <p class="lang-cz">Sylvanor je kouzelný les, který nikdy není stejný. Živý labyrint - spletitý, proměnlivý a plný cest, které se neustále mění. Každý den se trochu přeskupí: stezky se posunou, stromy si potichu vymění místa a zvuky zní jinak než včera.</p>
-        <p class="lang-en">Sylvanor is a magical forest that is never the same. A living labyrinth - intricate, ever-changing, and full of paths that constantly shift. Every day it rearranges itself: trails move, trees quietly swap places, and sounds ring differently than yesterday.</p>
-        <p class="lang-cz">Cestu v Sylvanoru nenajdeš očima ani na mapě. Najdeš ji jen tehdy, když se zastavíš a začneš poslouchat. Stromy mluví k poutníkovi zvuky - hlubokým hučením kmenů, šuměním listí, cvrlikáním ptáků i jemným chvěním pod nohama.</p>
-        <p class="lang-en">You cannot find your way through Sylvanor with your eyes or a map. You find it only when you stop and begin to listen. The trees speak to travellers through sounds — the deep hum of trunks, the rustle of leaves, the chirping of birds, and a gentle vibration beneath your feet.</p>
-        <p class="lang-cz">Sylvanor učí moudrosti. Ne takové, kterou si zapíšeš do sešitu, ale takové, která roste uvnitř tebe. Učí trpělivosti, klidu a tomu, že někdy je lepší chvíli mlčet a poslouchat, než hned mluvit.</p>
-        <p class="lang-en">Sylvanor teaches wisdom. Not the kind you write in a notebook, but the kind that grows inside you. It teaches patience, calm, and the understanding that sometimes it is better to be quiet and listen than to speak right away.</p>
-        <p class="about-audience lang-cz">Pro děti od 6 let - ale osloví i dospělé, kteří chtějí znovu naslouchat.</p>
-        <p class="about-audience lang-en">Written for children ages 6 and up, but its message speaks to adults who want to learn to listen again.</p>
+        <h2>O knize</h2>
+        <p>Sylvanor je kouzelný les, který nikdy není stejný. Živý labyrint - spletitý, proměnlivý a plný cest, které se neustále mění. Každý den se trochu přeskupí: stezky se posunou, stromy si potichu vymění místa a zvuky zní jinak než včera.</p>
+        <p>Cestu v Sylvanoru nenajdeš očima ani na mapě. Najdeš ji jen tehdy, když se zastavíš a začneš poslouchat. Stromy mluví k poutníkovi zvuky - hlubokým hučením kmenů, šuměním listí, cvrlikáním ptáků i jemným chvěním pod nohama.</p>
+        <p>Sylvanor učí moudrosti. Ne takové, kterou si zapíšeš do sešitu, ale takové, která roste uvnitř tebe. Učí trpělivosti, klidu a tomu, že někdy je lepší chvíli mlčet a poslouchat, než hned mluvit.</p>
+        <p class="about-audience">Pro děti od 6 let - ale osloví i dospělé, kteří chtějí znovu naslouchat.</p>
       </div>
       <div class="about-image">
-        <img src="images/emblem.webp" alt="Emblém dětské knihy Sylvanor, kouzelný les ve zlatém kruhu" width="800" height="603" loading="lazy">
+        <img src="/images/emblem.webp" alt="Emblém dětské knihy Sylvanor, kouzelný les ve zlatém kruhu" width="800" height="603" loading="lazy">
       </div>
     </div>
   </section>
 
   <section id="world" class="section world">
-    <h2 class="fade-in">
-      <span class="lang-cz">Svět Beastorie</span>
-      <span class="lang-en">The World of Beastorie</span>
-    </h2>
-    <p class="world-intro fade-in">
-      <span class="lang-cz">Sylvanor je jen jednou částí světa jménem Beastorie. Kromě něj leží ještě šest dalších říší a každá má svůj hlas, barvu a povahu.</span>
-      <span class="lang-en">Sylvanor is just one part of a world called Beastorie. Beyond it lie six other realms, each with its own voice, colour, and character.</span>
-    </p>
+    <h2 class="fade-in">Svět Beastorie</h2>
+    <p class="world-intro fade-in">Sylvanor je jen jednou částí světa jménem Beastorie. Kromě něj leží ještě šest dalších říší a každá má svůj hlas, barvu a povahu.</p>
     <div class="realm-grid">
       <div class="realm-card fade-in" style="--accent: #2d8a5e">
         <h3>Sylvanor</h3>
-        <p class="lang-cz">Les naslouchání — živý labyrint, který ukazuje cestu těm, kdo umí poslouchat.</p>
-        <p class="lang-en">The Forest of Listening — a living labyrinth that reveals its paths to those who listen.</p>
+        <p>Les naslouchání — živý labyrint, který ukazuje cestu těm, kdo umí poslouchat.</p>
       </div>
       <div class="realm-card fade-in" style="--accent: #2d6a8a">
         <h3>Olyrion</h3>
-        <p class="lang-cz">Země hlubokých vod — skrývá tajemství, otázky a odpovědi.</p>
-        <p class="lang-en">Land of Deep Waters — hiding secrets, questions, and answers.</p>
+        <p>Země hlubokých vod — skrývá tajemství, otázky a odpovědi.</p>
       </div>
       <div class="realm-card fade-in" style="--accent: #c45a2d">
         <h3>Pyrrath</h3>
-        <p class="lang-cz">Ohnivé pláně — země ohně, tepla a síly přetvářet.</p>
-        <p class="lang-en">The Fiery Plains — a land of fire, warmth, and the power to transform.</p>
+        <p>Ohnivé pláně — země ohně, tepla a síly přetvářet.</p>
       </div>
       <div class="realm-card fade-in" style="--accent: #5a3d7a">
         <h3>Noxmar</h3>
-        <p class="lang-cz">Říše stínů a snů — učí přijímat strach a konec věcí.</p>
-        <p class="lang-en">Realm of Shadows and Dreams — teaches acceptance of fear and endings.</p>
+        <p>Říše stínů a snů — učí přijímat strach a konec věcí.</p>
       </div>
       <div class="realm-card fade-in" style="--accent: #c4a42d">
         <h3>Sahariel</h3>
-        <p class="lang-cz">Zlaté písky — připomíná, že opravdová hodnota není vidět očima.</p>
-        <p class="lang-en">Golden Sands — a reminder that true value cannot be seen with the eyes.</p>
+        <p>Zlaté písky — připomíná, že opravdová hodnota není vidět očima.</p>
       </div>
       <div class="realm-card fade-in" style="--accent: #6baed6">
         <h3>Aurethys</h3>
-        <p class="lang-cz">Země větru a nebe — učí svobodě, snění a touze létat výš.</p>
-        <p class="lang-en">Land of Wind and Sky — teaches freedom, dreams, and the desire to fly higher.</p>
+        <p>Země větru a nebe — učí svobodě, snění a touze létat výš.</p>
       </div>
       <div class="realm-card fade-in" style="--accent: #7a7a7a">
         <h3>Drakemount</h3>
-        <p class="lang-cz">Hory síly a nezlomnosti — odraz touhy po síle, která vydrží.</p>
-        <p class="lang-en">Mountains of Strength — a reflection of the desire for enduring strength.</p>
+        <p>Hory síly a nezlomnosti — odraz touhy po síle, která vydrží.</p>
       </div>
     </div>
   </section>
 
   <section id="creatures" class="section creatures">
-    <h2 class="fade-in">
-      <span class="lang-cz">Bytosti Sylvanoru</span>
-      <span class="lang-en">Creatures of Sylvanor</span>
-    </h2>
+    <h2 class="fade-in">Bytosti Sylvanoru</h2>
     <div class="creature-grid">
       <div class="creature-card fade-in">
-        <img src="images/tarnen.webp" alt="Tarnen, strážce prahu, bytost z dětské fantasy knihy Sylvanor" class="creature-img" width="640" height="960" loading="lazy">
+        <img src="/images/tarnen.webp" alt="Tarnen, strážce prahu, bytost z dětské fantasy knihy Sylvanor" class="creature-img" width="640" height="960" loading="lazy">
         <h3>Tarnen</h3>
-        <p class="creature-role"><span class="lang-cz">Strážce prahu</span><span class="lang-en">Guardian of the Threshold</span></p>
-        <p class="creature-ancestors"><span class="lang-cz">Tisící předkové: vlk, jelen, orel, dračí ozvěna</span><span class="lang-en">Ancient ancestors: wolf, stag, eagle, dragon echo</span></p>
-        <p class="lang-cz">Když se Tarnen objeví, les ztichne a zem pod nohama ztěžkne. Kdo chce projít dál, musí se nejdřív podívat dovnitř sebe.</p>
-        <p class="lang-en">When Tarnen appears, the forest falls silent and the ground grows heavy. To pass, one must first look within.</p>
+        <p class="creature-role">Strážce prahu</p>
+        <p class="creature-ancestors">Tisící předkové: vlk, jelen, orel, dračí ozvěna</p>
+        <p>Když se Tarnen objeví, les ztichne a zem pod nohama ztěžkne. Kdo chce projít dál, musí se nejdřív podívat dovnitř sebe.</p>
       </div>
       <div class="creature-card fade-in">
-        <img src="images/stinolisek.webp" alt="Stínolišek, průvodce mezi kroky, bytost z dětské fantasy knihy Sylvanor" class="creature-img" width="640" height="960" loading="lazy">
+        <img src="/images/stinolisek.webp" alt="Stínolišek, průvodce mezi kroky, bytost z dětské fantasy knihy Sylvanor" class="creature-img" width="640" height="960" loading="lazy">
         <h3>Stínolišek</h3>
-        <p class="creature-role"><span class="lang-cz">Průvodce mezi kroky</span><span class="lang-en">Guide Between Steps</span></p>
-        <p class="creature-ancestors"><span class="lang-cz">Tisící předkové: sova, liška, jelen</span><span class="lang-en">Ancient ancestors: owl, fox, deer</span></p>
-        <p class="lang-cz">Stínolišek neukazuje cestu na mapě, ale v hlavě a v srdci. Kdo ho potká, může v jeho očích uvidět své vlastní kroky.</p>
-        <p class="lang-en">Stínolišek does not show the way on a map, but in the mind and heart. Those who meet him can see their own steps reflected in his eyes.</p>
+        <p class="creature-role">Průvodce mezi kroky</p>
+        <p class="creature-ancestors">Tisící předkové: sova, liška, jelen</p>
+        <p>Stínolišek neukazuje cestu na mapě, ale v hlavě a v srdci. Kdo ho potká, může v jeho očích uvidět své vlastní kroky.</p>
       </div>
       <div class="creature-card fade-in">
-        <img src="images/lurein.webp" alt="Lurein, tkavec, bytost z dětské fantasy knihy Sylvanor" class="creature-img" width="640" height="960" loading="lazy">
+        <img src="/images/lurein.webp" alt="Lurein, tkavec, bytost z dětské fantasy knihy Sylvanor" class="creature-img" width="640" height="960" loading="lazy">
         <h3>Lurein</h3>
-        <p class="creature-role"><span class="lang-cz">Tkavec</span><span class="lang-en">Weaver</span></p>
-        <p class="creature-ancestors"><span class="lang-cz">Tisící předkové: šnek, had, labuť</span><span class="lang-en">Ancient ancestors: snail, snake, swan</span></p>
-        <p class="lang-cz">Lurein připomíná, že někdy je v pořádku jít pomalu a pustit to, co už nepotřebujeme. Kde projde, tráva se narovná a les se tiše nadechne.</p>
-        <p class="lang-en">Lurein reminds us that sometimes it is okay to go slowly and let go of what we no longer need. Where he passes, the grass straightens and the forest quietly breathes in.</p>
+        <p class="creature-role">Tkavec</p>
+        <p class="creature-ancestors">Tisící předkové: šnek, had, labuť</p>
+        <p>Lurein připomíná, že někdy je v pořádku jít pomalu a pustit to, co už nepotřebujeme. Kde projde, tráva se narovná a les se tiše nadechne.</p>
       </div>
     </div>
   </section>
 
   <section id="preview" class="section preview">
-    <h2 class="fade-in">
-      <span class="lang-cz">Ukázka z knihy</span>
-      <span class="lang-en">Book Preview</span>
-    </h2>
+    <h2 class="fade-in">Ukázka z knihy</h2>
     <blockquote class="preview-quote fade-in">
-      <p class="lang-cz">Sylvanor není les, kde by se člověk učil z knih. Učíš se jinak. Tím, že zpomalíš, zaposloucháš se a začneš si všímat toho, co se děje kolem tebe. Kdo spěchá, snadno se ztratí, ale kdo naslouchá, začne lesu rozumět.</p>
-      <p class="lang-en">Sylvanor is not a forest where you learn from books. You learn differently. By slowing down, listening closely, and noticing what is happening around you. Those who rush easily get lost, but those who listen begin to understand the forest.</p>
-      <p class="lang-cz">V noci není Sylvanor nikdy úplně tmavý. Houby, květy a liány se rozzáří měkkým světlem, jako by les držel v dlani hvězdy. A když se dotkneš kůry stromu, ucítíš jemné chvění, jako když se les potichu směje.</p>
-      <p class="lang-en">At night, Sylvanor is never truly dark. Mushrooms, flowers, and vines glow with soft light, as if the forest holds stars in its palms. And when you touch the bark of a tree, you feel a gentle trembling, as though the forest is quietly laughing.</p>
+      <p>Sylvanor není les, kde by se člověk učil z knih. Učíš se jinak. Tím, že zpomalíš, zaposloucháš se a začneš si všímat toho, co se děje kolem tebe. Kdo spěchá, snadno se ztratí, ale kdo naslouchá, začne lesu rozumět.</p>
+      <p>V noci není Sylvanor nikdy úplně tmavý. Houby, květy a liány se rozzáří měkkým světlem, jako by les držel v dlani hvězdy. A když se dotkneš kůry stromu, ucítíš jemné chvění, jako když se les potichu směje.</p>
     </blockquote>
   </section>
 
   <section id="reviews" class="section reviews">
-    <h2 class="fade-in">
-      <span class="lang-cz">Co říkají čtenáři</span>
-      <span class="lang-en">What Readers Say</span>
-    </h2>
+    <h2 class="fade-in">Co říkají čtenáři</h2>
     <div class="review-grid">
       <div class="review-card fade-in">
-        <p class="review-text">
-          <span class="lang-cz">„Dcera (8) si zamilovala Stínolíska — říká, že jí pomáhá přemýšlet, než něco udělá. A legenda o Melodii Sevelníčka je u nás nejoblíbenější část na dobrou noc."</span>
-          <span class="lang-en">"My daughter (8) fell in love with Stínolišek — she says he helps her think before she acts. And the Legend of Sevelníček's Melody is our favourite bedtime story."</span>
-        </p>
-        <p class="review-author">— Jana K., <span class="lang-cz">maminka</span><span class="lang-en">mother</span></p>
+        <p class="review-text">„Dcera (8) si zamilovala Stínolíska — říká, že jí pomáhá přemýšlet, než něco udělá. A legenda o Melodii Sevelníčka je u nás nejoblíbenější část na dobrou noc."</p>
+        <p class="review-author">— Jana K., maminka</p>
       </div>
       <div class="review-card fade-in">
-        <p class="review-text">
-          <span class="lang-cz">„Syn chce vědět všechno o světě Beastorie — kreslí mapy říší, vymýšlí vlastní Tkavce a ptá se, jestli bude pokračování. Sedm říší mu nestačí."</span>
-          <span class="lang-en">"My son wants to know everything about Beastorie — he draws maps of the realms, invents his own Weavers, and keeps asking if there will be a sequel. Seven realms aren't enough for him."</span>
-        </p>
-        <p class="review-author">— Petr M., <span class="lang-cz">tatínek</span><span class="lang-en">father</span></p>
+        <p class="review-text">„Syn chce vědět všechno o světě Beastorie — kreslí mapy říší, vymýšlí vlastní Tkavce a ptá se, jestli bude pokračování. Sedm říší mu nestačí."</p>
+        <p class="review-author">— Petr M., tatínek</p>
       </div>
       <div class="review-card fade-in">
-        <p class="review-text">
-          <span class="lang-cz">„Koupila jsem to pro neteř, ale přečetla jsem to celé sama. Tarnen, který čeká, až se podíváš dovnitř sebe — to není jen pro děti. Ta kniha učí zpomalit i dospělé."</span>
-          <span class="lang-en">"I bought it for my niece, but read it cover to cover myself. Tarnen, who waits until you look within — that's not just for children. This book teaches adults to slow down too."</span>
-        </p>
+        <p class="review-text">„Koupila jsem to pro neteř, ale přečetla jsem to celé sama. Tarnen, který čeká, až se podíváš dovnitř sebe — to není jen pro děti. Ta kniha učí zpomalit i dospělé."</p>
         <p class="review-author">— Marie S.</p>
       </div>
     </div>
@@ -242,39 +193,20 @@
 
   <section id="buy" class="section buy">
     <div class="buy-content fade-in">
-      <h2>
-        <span class="lang-cz">Koupit knihu</span>
-        <span class="lang-en">Buy the Book</span>
-      </h2>
-      <p class="buy-description">
-        <span class="lang-cz">Stáhni si Sylvanor v PDF a vstup do kouzelného lesa, který tě naučí naslouchat.</span>
-        <span class="lang-en">Download Sylvanor as a PDF and step into the magical forest that teaches you to listen.</span>
-      </p>
+      <h2>Koupit knihu</h2>
+      <p class="buy-description">Stáhni si Sylvanor v PDF a vstup do kouzelného lesa, který tě naučí naslouchat.</p>
       <div class="buy-buttons">
-        <a href="https://form.simpleshop.cz/V5B9l/buy/" target="_blank" rel="noopener" class="buy-btn buy-btn-primary">
-          <span class="lang-cz">Koupit česky (PDF)</span>
-          <span class="lang-en">Buy in Czech (PDF)</span>
-        </a>
-        <a href="https://vavrisova.gumroad.com/l/yztpnh" target="_blank" rel="noopener" class="buy-btn buy-btn-primary">
-          <span class="lang-cz">Koupit anglicky (PDF)</span>
-          <span class="lang-en">Buy in English (PDF)</span>
-        </a>
+        <a href="https://form.simpleshop.cz/V5B9l/buy/" target="_blank" rel="noopener" class="buy-btn buy-btn-primary">Koupit česky (PDF)</a>
+        <a href="https://vavrisova.gumroad.com/l/yztpnh" target="_blank" rel="noopener" class="buy-btn buy-btn-primary">Koupit anglicky (PDF)</a>
       </div>
-      <p class="buy-note">
-        <span class="lang-cz">Po zakoupení obdržíš PDF ke stažení ihned.</span>
-        <span class="lang-en">After purchase you will receive the PDF for instant download.</span>
-      </p>
+      <p class="buy-note">Po zakoupení obdržíš PDF ke stažení ihned.</p>
     </div>
   </section>
 
   <section id="author" class="section author">
     <div class="author-content fade-in">
-      <h2>
-        <span class="lang-cz">O autorce</span>
-        <span class="lang-en">About the Author</span>
-      </h2>
-      <p class="lang-cz">Lenka Vavrisová je autorkou světa Beastorie. Sylvanor vznikl z touhy vytvořit příběh, který učí děti naslouchat - sobě, druhým i světu kolem nich.</p>
-      <p class="lang-en">Lenka Vavrisová is the creator of the world of Beastorie. Sylvanor was born from the desire to create a story that teaches children to listen - to themselves, to others, and to the world around them.</p>
+      <h2>O autorce</h2>
+      <p>Lenka Vavrisová je autorkou světa Beastorie. Sylvanor vznikl z touhy vytvořit příběh, který učí děti naslouchat - sobě, druhým i světu kolem nich.</p>
     </div>
   </section>
 
@@ -285,6 +217,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>

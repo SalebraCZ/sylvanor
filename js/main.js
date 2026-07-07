@@ -1,18 +1,4 @@
 (function () {
-  // Language toggle
-  const langToggle = document.getElementById('lang-toggle');
-  const body = document.body;
-
-  const savedLang = localStorage.getItem('sylvanor-lang');
-  if (savedLang) body.dataset.lang = savedLang;
-
-  langToggle.addEventListener('click', function () {
-    const newLang = body.dataset.lang === 'cz' ? 'en' : 'cz';
-    body.dataset.lang = newLang;
-    localStorage.setItem('sylvanor-lang', newLang);
-    document.documentElement.lang = newLang === 'cz' ? 'cs' : 'en';
-  });
-
   // Mobile hamburger menu
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.getElementById('nav-links');
