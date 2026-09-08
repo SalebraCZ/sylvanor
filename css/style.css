@@ -267,6 +267,14 @@ body {
 .buy-note { color: var(--text-muted); font-size: 0.8rem; opacity: 0.7; }
 .buy-blurb { color: var(--text-muted); font-size: 0.95rem; margin-top: 32px; opacity: 0.85; }
 
+/* === Story === */
+.story { background: var(--bg-dark); max-width: 100%; padding: 100px 24px; text-align: center; }
+.story-content { max-width: 600px; margin: 0 auto; }
+.story h2 { font-family: var(--font-heading); font-size: 2.2rem; color: var(--gold); margin-bottom: 8px; }
+.story-subtitle { font-family: var(--font-heading); font-style: italic; font-size: 1.1rem; color: var(--text-light); opacity: 0.85; margin-bottom: 32px; }
+.buy-btn-secondary { border: 1px solid var(--gold-dim); color: var(--gold); transition: background 0.3s, transform 0.3s; }
+.buy-btn-secondary:hover { background: rgba(200,169,110,0.15); transform: translateY(-2px); }
+
 /* === Author === */
 .author { background: var(--bg-darkest); text-align: center; }
 .author-content { max-width: 600px; margin: 0 auto; }
